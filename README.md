@@ -289,80 +289,6 @@ The system will be tested to ensure that all major functionalities work correctl
 
 ---
 
-## ⚙️ Installation and Setup
-
-**Step 1: Clone the Repository**
-```bash
-git clone <repository-url>
-```
-
-**Step 2: Open the Project Folder**
-```bash
-cd Hostel-Management-System
-```
-
-**Step 3: Create a Virtual Environment**
-```bash
-python -m venv venv
-```
-
-**Step 4: Activate the Virtual Environment**
-
-For Windows:
-```bash
-venv\Scripts\activate
-```
-
-For Linux/macOS:
-```bash
-source venv/bin/activate
-```
-
-**Step 5: Install Required Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**Step 6: Configure MySQL**
-
-Create the required MySQL database and configure the database connection according to the project configuration.
-
-**Step 7: Run the Application**
-
-For Flask:
-```bash
-python app.py
-```
-
-For Django:
-```bash
-python manage.py runserver
-```
-
-**Step 8: Open the Application**
-
-Open the URL provided by the development server in a web browser.
-
----
-
-## 🚀 Future Enhancements
-
-The following features can be considered for future development:
-
-- Online hostel application
-- Automated room allocation
-- Hostel fee management
-- Email/SMS notifications
-- Complaint management
-- Maintenance management
-- Hostel reports and analytics
-- Mobile application
-- Automated availability updates
-- Advanced administrator dashboard
-
-> These are future enhancements and are not part of the current core scope.
-
----
 
 ## 👨‍💻 Team Members
 
@@ -447,14 +373,6 @@ Each team member contributes to the development, documentation, testing, and imp
 
 ---
 
-## 📜 License
 
-This project is developed for academic and educational purposes.
 
----
 
-## Acknowledgement
-
-We would like to thank our faculty and department for providing guidance and support throughout the development of this project.
-
-We also thank our team members for their contribution and cooperation in completing the project.
