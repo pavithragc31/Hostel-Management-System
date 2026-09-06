@@ -179,8 +179,8 @@ Student Details / Room Details / Room Allocation
 Database
   ↓
 Display Updated Information
-
-##Administrator Workflow
+---
+## Administrator Workflow
 Administrator
      ↓
     Login
@@ -196,7 +196,8 @@ Allocate Room
 Store Information in Database
      ↓
 View / Update Records
-##Student Workflow
+---
+## Student Workflow
 Student
    ↓
  Login
@@ -206,8 +207,9 @@ Authentication
 View Personal Details
    ↓
 View Room Allocation
+----
 
-##🔐 Security
+## 🔐 Security
 
 The system will provide basic security mechanisms to protect student and hostel information.
 
@@ -220,6 +222,7 @@ Access control based on user role.
 Database access protection.
 Validation of user input.
 Prevention of unauthorized access.
+-----
 ##📁 Project Structure
 Hostel-Management-System/
 │
@@ -247,6 +250,7 @@ Hostel-Management-System/
     📝 Software Requirements Specification
 
 The complete Software Requirements Specification (SRS) document is included in this repository.
+----
 
 ##📝 Software Requirements Specification
 The SRS contains:
@@ -261,7 +265,7 @@ Quality Attributes
 Acceptance Tests
 UML Use-Case Diagrams
 Requirements Traceability Matrix (RTM)
-
+----
 ##🧪 Testing
 
 The system will be tested to ensure that all major functionalities work correctly.
@@ -279,7 +283,7 @@ Access control testing
 Functional testing
 Non-functional testing
 
-
+----
 ##⚙️ Installation and Setup
 Step 1: Clone the Repository
 git clone <repository-url>
@@ -313,7 +317,7 @@ python manage.py runserver
 Step 8: Open the Application
 
 Open the URL provided by the development server in a web browser.
-
+-----
 🚀 Future Enhancements
 
 The following features can be considered for future development:
@@ -330,7 +334,7 @@ Automated availability updates.
 Advanced administrator dashboard.
 
 These are future enhancements and are not part of the current core scope.
-
+-----
 👨‍💻 Team Members
 Name	Role
 Pavithra G C	
@@ -345,7 +349,7 @@ Prabhakar Kumar
 Pradeep	
 
 All team members contributed to the preparation and review of the project documentation.
-
+----
 📊 Project Status
 Component	Status
 Project Topic	✅ Completed
@@ -370,13 +374,13 @@ Institution: PES University
 Project Type: Software Engineering Mini Project
 
 Team Size: 4
-
+---
 📌 Expected Outcome
 
 The expected outcome of this project is a simple and efficient hostel management system that helps administrators manage student details and room allocation digitally.
 
 The system aims to reduce manual work, improve data organization, minimize errors, and make hostel room allocation and student information management easier.
-
+---
 📚 Documentation
 
 Project documentation includes:
@@ -398,7 +402,7 @@ Each team member contributes to the development, documentation, testing, and imp
 
 This project is developed for academic and educational purposes.
 
-🙏 Acknowledgement
+Acknowledgement
 
 We would like to thank our faculty and department for providing guidance and support throughout the development of this project.
 
