@@ -367,7 +367,7 @@ The following features can be considered for future development:
 ## 👨‍💻 Team Members
 
 | Name | 
-|------|------|
+|------|
 | Pavithra G C | 
 | Pavan Kumar H S | 
 | Prabhakar Kumar | 
@@ -377,12 +377,12 @@ The following features can be considered for future development:
 
 ## 👥 Division of Work
 
-| Team Member 
-|--------------|
-| Pavithra G C | 
-| Pavan Kumar H S | 
-| Prabhakar Kumar | 
-| Pradeep | 
+| Team Member | Responsibility |
+|--------------|-----------------|
+| Pavithra G C | Introduction, Overall Description, and review of the SRS document; integrated the sections |
+| Pavan Kumar H S | External Interface Requirements and Functional Requirements |
+| Prabhakar Kumar | Non-Functional Requirements, Security Requirements, and Quality Attributes |
+| Pradeep | UML Use-Case Diagrams, Acceptance Tests, and Requirements Traceability Matrix (RTM) |
 
 > All team members contributed to the preparation and review of the project documentation.
 
