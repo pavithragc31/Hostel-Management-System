@@ -366,23 +366,23 @@ The following features can be considered for future development:
 
 ## 👨‍💻 Team Members
 
-| Name | Role |
+| Name | 
 |------|------|
-| Pavithra G C | |
-| Pavan Kumar H S | |
-| Prabhakar Kumar | |
-| Pradeep | |
+| Pavithra G C | 
+| Pavan Kumar H S | 
+| Prabhakar Kumar | 
+| Pradeep | 
 
 ---
 
 ## 👥 Division of Work
 
-| Team Member | Responsibility |
-|--------------|-----------------|
-| Pavithra G C | |
-| Pavan Kumar H S | |
-| Prabhakar Kumar | |
-| Pradeep | |
+| Team Member 
+|--------------|
+| Pavithra G C | 
+| Pavan Kumar H S | 
+| Prabhakar Kumar | 
+| Pradeep | 
 
 > All team members contributed to the preparation and review of the project documentation.
 
