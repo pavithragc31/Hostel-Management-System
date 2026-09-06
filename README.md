@@ -1,4 +1,4 @@
-# Hostel Management System
+# 🏠 Hostel Management System
 
 A web-based system to manage hostel student details and room allocation efficiently.
 
@@ -111,29 +111,17 @@ The system consists of the following major modules:
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
+**Frontend:** HTML, CSS, JavaScript
 
-### Backend
-- Python
+**Backend:** Python
 
-### Framework
-- Django / Flask
+**Framework:** Django / Flask
 
-### Database
-- MySQL
+**Database:** MySQL
 
-### Tools
-- Git
-- GitHub
-- Visual Studio Code
+**Tools:** Git, GitHub, Visual Studio Code
 
-### Browser
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
+**Browsers:** Google Chrome, Microsoft Edge, Mozilla Firefox
 
 > The final framework will be updated in this README once the team finalizes Django or Flask.
 
@@ -163,7 +151,7 @@ The system consists of the following major modules:
 
 ## 🔄 System Workflow
 
-The basic workflow of the system is:
+### General Workflow
 
 ```text
 User
@@ -179,48 +167,63 @@ Student Details / Room Details / Room Allocation
 Database
   ↓
 Display Updated Information
+```
 
-## 👨‍💼 Administrator Workflow
+### 👨‍💼 Administrator Workflow
 
 ```text
 Administrator
-     ↓
-    Login
-     ↓
+  ↓
+Login
+  ↓
 Authentication
-     ↓
+  ↓
 Manage Student Details
-     ↓
+  ↓
 Manage Room Details
-     ↓
+  ↓
 Allocate Room
-     ↓
+  ↓
 Store Information in Database
-     ↓
+  ↓
 View / Update Records
-👨‍🎓 Student Workflow
+```
+
+### 👨‍🎓 Student Workflow
+
+```text
 Student
-   ↓
- Login
-   ↓
+  ↓
+Login
+  ↓
 Authentication
-   ↓
+  ↓
 View Personal Details
-   ↓
+  ↓
 View Room Allocation
-🔐 Security
+```
+
+---
+
+## 🔐 Security
 
 The system will provide basic security mechanisms to protect student and hostel information.
 
-Security Measures
-User authentication
-Login validation
-Secure password handling
-Access control based on user role
-Database access protection
-Validation of user input
-Prevention of unauthorized access
-📁 Project Structure
+**Security Measures:**
+
+- User authentication
+- Login validation
+- Secure password handling
+- Access control based on user role
+- Database access protection
+- Validation of user input
+- Prevention of unauthorized access
+
+---
+
+## 📁 Project Structure
+
+```text
 Hostel-Management-System/
 │
 ├── README.md
@@ -242,151 +245,216 @@ Hostel-Management-System/
 │
 └── docs/
     └── ...
+```
 
-The project structure may be updated as development progresses.
+> The project structure may be updated as development progresses.
 
-📝 Software Requirements Specification
+---
+
+## 📝 Software Requirements Specification
 
 The complete Software Requirements Specification (SRS) document is included in this repository.
 
-The SRS Contains
-Introduction
-Overall Description
-External Interface Requirements
-Functional Requirements
-Non-Functional Requirements
-Security Requirements
-Quality Attributes
-Acceptance Tests
-UML Use-Case Diagrams
-Requirements Traceability Matrix (RTM)
-🧪 Testing
+**The SRS contains:**
+
+- Introduction
+- Overall Description
+- External Interface Requirements
+- Functional Requirements
+- Non-Functional Requirements
+- Security Requirements
+- Quality Attributes
+- Acceptance Tests
+- UML Use-Case Diagrams
+- Requirements Traceability Matrix (RTM)
+
+---
+
+## 🧪 Testing
 
 The system will be tested to ensure that all major functionalities work correctly.
 
-Testing Areas
-Login testing
-Student registration testing
-Student details management testing
-Room management testing
-Room allocation testing
-Database testing
-Input validation testing
-Access control testing
-Functional testing
-Non-functional testing
-⚙️ Installation and Setup
-Step 1: Clone the Repository
+**Testing Areas:**
+
+- Login testing
+- Student registration testing
+- Student details management testing
+- Room management testing
+- Room allocation testing
+- Database testing
+- Input validation testing
+- Access control testing
+- Functional testing
+- Non-functional testing
+
+---
+
+## ⚙️ Installation and Setup
+
+**Step 1: Clone the Repository**
+```bash
 git clone <repository-url>
-Step 2: Open the Project Folder
+```
+
+**Step 2: Open the Project Folder**
+```bash
 cd Hostel-Management-System
-Step 3: Create a Virtual Environment
+```
+
+**Step 3: Create a Virtual Environment**
+```bash
 python -m venv venv
-Step 4: Activate the Virtual Environment
-For Windows
+```
+
+**Step 4: Activate the Virtual Environment**
+
+For Windows:
+```bash
 venv\Scripts\activate
-For Linux/macOS
+```
+
+For Linux/macOS:
+```bash
 source venv/bin/activate
-Step 5: Install Required Dependencies
+```
+
+**Step 5: Install Required Dependencies**
+```bash
 pip install -r requirements.txt
-Step 6: Configure MySQL
+```
+
+**Step 6: Configure MySQL**
 
 Create the required MySQL database and configure the database connection according to the project configuration.
 
-Step 7: Run the Application
-For Flask
+**Step 7: Run the Application**
+
+For Flask:
+```bash
 python app.py
-For Django
+```
+
+For Django:
+```bash
 python manage.py runserver
-Step 8: Open the Application
+```
+
+**Step 8: Open the Application**
 
 Open the URL provided by the development server in a web browser.
 
-🚀 Future Enhancements
+---
+
+## 🚀 Future Enhancements
 
 The following features can be considered for future development:
 
-Online hostel application
-Automated room allocation
-Hostel fee management
-Email/SMS notifications
-Complaint management
-Maintenance management
-Hostel reports and analytics
-Mobile application
-Automated availability updates
-Advanced administrator dashboard
+- Online hostel application
+- Automated room allocation
+- Hostel fee management
+- Email/SMS notifications
+- Complaint management
+- Maintenance management
+- Hostel reports and analytics
+- Mobile application
+- Automated availability updates
+- Advanced administrator dashboard
 
-These are future enhancements and are not part of the current core scope.
+> These are future enhancements and are not part of the current core scope.
 
-👨‍💻 Team Members
-Name	Role
-Pavithra G C	
-Pavan Kumar H S
-Prabhakar Kumar	
-Pradeep	
-👥 Division of Work
-Team Member	Responsibility
-Pavithra G C	
-Pavan Kumar H S	
-Prabhakar Kumar
-Pradeep	
+---
 
-All team members contributed to the preparation and review of the project documentation.
+## 👨‍💻 Team Members
 
-📊 Project Status
-Component	Status
-Project Topic	✅ Completed
-SRS Document	✅ Completed
-Requirements Analysis	✅ Completed
-UML Use-Case Diagrams	✅ Completed
-Acceptance Tests	✅ Completed
-RTM	✅ Completed
-GitHub Repository	✅ Created
-Coding	🔄 In Progress
-Database Implementation	🔄 In Progress
-Testing	⏳ Planned
-Deployment	⏳ Planned
-🎓 Academic Information
-Details	Information
-Project	Hostel Management System
-Department	Computer Science and Engineering
-Institution	PES University
-Project Type	Software Engineering Mini Project
-Team Size	4
-📌 Expected Outcome
+| Name | Role |
+|------|------|
+| Pavithra G C | |
+| Pavan Kumar H S | |
+| Prabhakar Kumar | |
+| Pradeep | |
+
+---
+
+## 👥 Division of Work
+
+| Team Member | Responsibility |
+|--------------|-----------------|
+| Pavithra G C | |
+| Pavan Kumar H S | |
+| Prabhakar Kumar | |
+| Pradeep | |
+
+> All team members contributed to the preparation and review of the project documentation.
+
+---
+
+## 📊 Project Status
+
+| Component | Status |
+|-----------|--------|
+| Project Topic | ✅ Completed |
+| SRS Document | ✅ Completed |
+| Requirements Analysis | ✅ Completed |
+| UML Use-Case Diagrams | ✅ Completed |
+| Acceptance Tests | ✅ Completed |
+| RTM | ✅ Completed |
+| GitHub Repository | ✅ Created |
+| Coding | 🔄 In Progress |
+| Database Implementation | 🔄 In Progress |
+| Testing | ⏳ Planned |
+| Deployment | ⏳ Planned |
+
+---
+
+## 🎓 Academic Information
+
+| Details | Information |
+|---------|--------------|
+| Project | Hostel Management System |
+| Department | Computer Science and Engineering |
+| Institution | PES University |
+| Project Type | Software Engineering Mini Project |
+| Team Size | 4 |
+
+---
+
+## 📌 Expected Outcome
 
 The expected outcome of this project is a simple and efficient hostel management system that helps administrators manage student details and room allocation digitally.
 
 The system aims to reduce manual work, improve data organization, minimize errors, and make hostel room allocation and student information management easier.
 
-📚 Documentation
+---
+
+## 📚 Documentation
 
 Project documentation includes:
 
-Software Requirements Specification (SRS)
-UML Use-Case Diagrams
-Acceptance Test Cases
-Requirements Traceability Matrix
-Project Source Code
-Database Design
-🤝 Contribution
+- Software Requirements Specification (SRS)
+- UML Use-Case Diagrams
+- Acceptance Test Cases
+- Requirements Traceability Matrix
+- Project Source Code
+- Database Design
+
+---
+
+## 🤝 Contribution
 
 This is an academic team project developed as part of the Software Engineering coursework.
 
 Each team member contributes to the development, documentation, testing, and improvement of the system.
 
-📜 License
+---
+
+## 📜 License
 
 This project is developed for academic and educational purposes.
 
-🙏 Acknowledgement
+---
+
+## Acknowledgement
 
 We would like to thank our faculty and department for providing guidance and support throughout the development of this project.
 
 We also thank our team members for their contribution and cooperation in completing the project.
-
-⭐ Project
-Hostel Management System
-
-A system to manage hostel room allocation and student details.
